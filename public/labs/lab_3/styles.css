@@ -7,7 +7,7 @@
   
   .carousel {
     display: block;
-    /*margin-left: auto;*/
+    margin-left: auto;
     margin-right: auto;
     width: 100%;
     position: relative;
@@ -15,7 +15,8 @@
     padding: 10px 40px;
     border: 1px solid #CCC;
     border-radius: 15px;
-    background: blueviolet ;
+    background: blueviolet;
+    top: -50px;
   }
   
   .carousel img {
