@@ -7,7 +7,7 @@ let listElems = carousel.querySelectorAll('li');
 
 let position = 0; // ribbon scroll position
 
-carousel.querySelector('.prev').onclick = function() {
+carousel.querySelector('.arrowPrevious').onclick = function() {
   // shift left
   position += width * count;
   // can't move to the left too much, end of images
@@ -15,7 +15,7 @@ carousel.querySelector('.prev').onclick = function() {
   list.style.marginLeft = position + 'px';
 };
 
-carousel.querySelector('.next').onclick = function() {
+carousel.querySelector('.arrowNext').onclick = function() {
   // shift right
   position -= width * count;
   // can only shift the ribbbon for (total ribbon length - visible count) images
