@@ -7,9 +7,9 @@
   
   .carousel {
     display: block;
-    margin-left: auto;
+    /*margin-left: auto;*/
     margin-right: auto;
-    width: 40%;
+    width: 100%;
     position: relative;
     width: 398px;
     padding: 10px 40px;
