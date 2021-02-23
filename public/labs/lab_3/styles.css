@@ -2,6 +2,7 @@
  https://javascript.info/introduction-browser-events */
  body {
     padding: 10px;
+    background: green;
   }
   
   .carousel {
@@ -10,7 +11,7 @@
     padding: 10px 40px;
     border: 1px solid #CCC;
     border-radius: 15px;
-    background: #eee;
+    background: blueviolet ;
   }
   
   .carousel img {
@@ -42,11 +43,11 @@
     cursor: pointer;
   }
   
-  .prev {
+  .arrowPrevious {
     left: 7px;
   }
   
-  .next {
+  .arrowNext {
     right: 7px;
   }
   
