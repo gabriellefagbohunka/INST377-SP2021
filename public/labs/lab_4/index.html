@@ -13,8 +13,9 @@
 
   <body>
     <h1>Gabrielle Fagbohunka's Lab 4</h1>
+    <div class="wrapper">
     <div class="container">
-      <form>
+      <form action = "/api" method = "post">
         <ul class="flex-outer">
           <li>
             <label for="fname">First Name</label>
@@ -34,43 +35,31 @@
           </li>
           <li>
             <label for="message">Message</label>
-            <textarea rows="5" cols="33" name="message" id="message" placeholder="Enter your message here"></textarea>
+            <textarea rows="5" cols="33" name="message" id="message" placeholder="Enter your message here">This is some default message text.</textarea>
           </li>
           <li>
             <p>Age</p>
             <ul class="flex-inner">
               <li>
-                <input type="checkbox" id="twenty-to-twentynine">
-                <label for="twenty-to-twentynine">20-29</label>
+                <input type="checkbox" id="twenty-to-twentynine" name="twenty-to-twentynine">
+                <label for="twenty-to-twentynine">18-35</label>
               </li>
               <li>
-                <input type="checkbox" id="thirty-to-thirtynine">
-                <label for="thirty-to-thirtynine">30-39</label>
+                <input type="checkbox" id="thirty-to-thirtynine" name="thirty-to-thirtynine">
+                <label for="thirty-to-thirtynine">35-50</label>
               </li>
               <li>
-                <input type="checkbox" id="fourty-to-fourtynine">
-                <label for="fourty-to-fourtynine">40-49</label>
-              </li>
-              <li>
-                <input type="checkbox" id="fifty-to-fiftynine">
-                <label for="fifty-to-fiftynine">50-59</label>
-              </li>
-              <li>
-                <input type="checkbox" id="sixty-to-sixtynine">
-                <label for="sixty-to-sixtynine">60-69</label>
-              </li>
-              <li>
-                <input type="checkbox" id="other">
-                <label for="other">Other</label>
+                <input type="checkbox" id="fourty-to-fourtynine" name="fourty-to-fourtynine">
+                <label for="fourty-to-fourtynine">50-65</label>
               </li>
             </ul>
           </li>
           <li>
-            <button type="submit">Submit</button>
+            <button type="submit" id = submit name = "submit">Submit</button>
           </li>
         </ul>
       </form>
     </div>
-
+  </div>
   </body>
 </html>
